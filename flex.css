@@ -1,0 +1,454 @@
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30%
+
+}
+
+.container_2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.upload-box {
+    width: 18%;
+    height: 150px;
+    background-color: #fefaf1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px dashed #ccc;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+#image_1, #image_2, #image_3, #image_4 {
+    display: none;
+}
+
+input, select, textarea {
+    width: 30%;
+    padding: 10px;
+    margin-top: 1px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+.move {
+    color: gray;
+    transition: .2s;
+}
+main {
+    padding-top: 70px;
+}
+
+.move:hover {
+    color: #4A90E2;
+}
+
+.footer {
+    display: block;
+    padding: 10px;
+}
+
+.end-footer {
+    justify-content: center;
+    color: #4A90E2;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    color: gray;
+    font-family: cursive;
+    cursor: pointer;
+
+}
+
+#hover-image:hover {
+    content: url("image/change_your_pc_2.png");
+}
+
+header {
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 13%;
+    box-shadow: 0 5px 10px #4A90E2;
+    box-sizing: border-box;
+    position: fixed;
+    z-index: 900;
+    
+}
+
+header .logo {
+    font-size: 20px;
+    font-weight: 900;
+    color: #4A90E2;
+    transition: .5s;
+    text-decoration: none;
+}
+
+header .logo:hover {
+    color: rgb(17, 83, 153);
+    transform: scale(1.3);
+}
+
+header nav ul li {
+    position: relative;
+    float: left;
+    margin: 5px;
+
+}
+
+header nav ul li a {
+    padding: 15px;
+    color: #4A90E2;
+    font-size: 16px;
+    display: block;
+    transition: .2s;
+
+}
+
+header nav ul li a:hover {
+    color: rgb(17, 83, 153);
+
+}
+
+nav ul li ul {
+    position: absolute;
+    width: 180px;
+    background: #000;
+    display: none;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+nav ul li ul li:hover {
+    color: rgb(48, 145, 248);
+    border-radius: 20px;
+    border: 2px solid rgb(48, 145, 248);
+}
+
+nav ul li ul li {
+    left: 0;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, .1)
+}
+
+nav ul li ul li ul {
+    left: 180px;
+    top: 0;
+}
+
+nav ul li:hover > ul {
+    display: inline;
+}
+
+.image {
+    transition: .7s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+}
+
+.image:hover {
+    transform: scale(1.1);
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 10%;
+    font-weight: 700;
+    height: 60px;
+    font-size: 17px;
+    text-align: center;
+    cursor: pointer;    
+    background: black;
+    color: #4A90E2;
+    font-family: cursive;
+    transition: .2s;
+    border: 2px solid #4A90E2;
+    border-radius: 20px;
+}
+
+.border {
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: #00f;
+    color: white;
+    border: 2px solid white;
+
+}
+
+.general_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 10%;
+    margin-left: 50px;
+    font-weight: 700;
+    height: 60px;
+    font-size: 17px;
+    text-align: center;
+    cursor: pointer;    
+    background: black;
+    color: #31ee6a;
+    font-family: cursive;
+    transition: .2s;
+    border: 2px solid #31ee6a;
+    border-radius: 20px;
+}
+
+.general_button:hover {
+    background: #31ee6a;
+    color: black;
+    border: 2px solid black;
+
+}
+
+.cost {
+    transition: .2s;
+}
+
+.cost:hover {
+    transform: scale(1.15);
+}
+
+.main-container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0px;
+    padding: 10px;
+    background: black;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+}
+
+.card {
+    display: block;
+    background: rgb(221, 221, 221);
+    flex-direction: column;
+    box-sizing: border-box;
+    border: 3px solid #4A90E2;
+    transition: .3s;
+    margin: 15px;
+    padding: 20px;
+    width: 180px;
+    height: 360px;
+    
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.video_card {
+    display: block;
+    background: rgb(221, 221, 221);
+    flex-direction: column;
+    box-sizing: border-box;
+    border: 1px solid rgb(5, 5, 104);
+    transition: .3s;
+    margin: 15px;
+    padding: 15px;
+    width: 280px;
+    height: 350px;
+}
+
+.name_image {
+    padding-right: 20px;
+}
+
+.title_text {
+    font-weight: 600;
+    padding-top: 10px;
+    font-family: "CENTURY GOTHIC";
+    color: gray;
+    width: 160px;
+    height: 50px;   
+    overflow: hidden;   
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.price_text {
+    padding-top: 10px;
+    font-family: cursive;
+    font-size: 30px;
+    color: blue;
+    font-weight: 600;
+    align-items: end;
+    
+}
+
+.wrap-text {
+    width: 50%;  
+    word-wrap: break-word; 
+    overflow: hidden;   
+    display: -webkit-box;
+    -webkit-line-clamp: 13;
+    -webkit-box-orient: vertical;
+}
+
+#massage-basket {
+    position: fixed;
+    top: 0;
+    right: -425px;
+    width: 400px;
+    height: 100%;
+    background: #333;
+    border-left: 1px solid #ccc;
+    padding: 20px;
+    overflow-y: auto;
+    transition: right 0.3s ease;
+    z-index: 1000;
+    color: white;
+}
+
+.computers {
+    display: flex;
+    flex-wrap: wrap; 
+    flex-direction: row;
+    margin: 25px;
+    margin-top: 125px;
+    justify-content: start;
+
+}
+
+#massage-computers {
+    display: flex;
+    width: 350px;
+    height: 900px;
+    background-color: #1e1e1e;
+    position: relative;
+    top: 80px;
+    border-radius: 30px;
+    border: 3px solid #4A90E2;
+    color:rgb(48, 145, 248);
+    font-size: 35px;
+    justify-content: center;;
+}
+
+#register {
+    display: flex;
+    width: 500px;
+    height: 350px;
+    background-color: #1e1e1e;
+    position: relative;
+    top: 40px;
+    border-radius: 30px;
+    border: 3px solid #4A90E2;
+    color:rgb(48, 145, 248);
+    font-size: 35px;
+    justify-content: center;
+    margin-bottom: 80px
+}
+
+.logo-image {
+    width: 70px; 
+    height: 70px;
+}
+
+#sort {
+    display: flex;
+    width: 750px;
+    height: 100px;
+    background-color: #000;
+    position: absolute;
+    right: 500px;
+    top: 85px;
+    border-radius: 30px;
+    border: 3px solid #4A90E2;
+    color:rgb(48, 145, 248);
+    font-size: 35px;
+    justify-content: center;;
+}
+
+input {
+    color: black;
+}
+
+#logotip {
+    border-radius: 50%;
+    border: 2px solid #4A90E2;
+    width: 40px;
+    height: 40px
+}
+
+.black {
+    color: rgb(173, 83, 23);
+    font-weight: 1000
+}
+
+#inside_basket {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#buy_computers {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#buy_computers > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background: #444;
+}
+
+.remove-item {
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+
+.remove-item:hover {
+    background: darkred;
+}
+
+#login, #password {
+    height: 60px;
+    width: 300px;
+    margin: 10px;
+    border-radius: 20px;
+}

@@ -1,0 +1,172 @@
+<html>
+    <head>
+        <title>PcStore</title>
+        <link rel="stylesheet" href="global.css">
+        <link rel="stylesheet" href="flex.css">
+    </head>
+    <body style = "background: white;">
+        <header>
+            <a href = "index.html" class = "logo"><img id="logotip" src="image/clipboard_image_d2b6152983c9fd62.png"></a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Головна</a></li>
+                    <li><a href="1_computer.html">Комп'ютери</a></li>
+                    <li><a href="#">Комлектуючі &blacktriangledown;</a>
+                        <ul>
+                            <li><a href="1_vidercard.html">Відеокарти</a></li>
+                            <li><a href="1_procesor.html">Процесори</a></li>
+                            <li><a href="1_mother_board.html">Материнскі плати</a></li>
+                            <li><a href="#">Корпуси</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="1_register.html">Войти</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <main style = "font-family: Arial; flex-wrap: nowrap;"> 
+            <div id="massage-basket">
+                <div style="display: flex; flex-direction: column; align-items: start; justify-content: start;">
+                    <div style="padding: 20px;">
+                        <label style="color: #4A90E2;">Ваша корзина</label>
+                    </div>
+                    <div id="buy_computers"></div>
+                </div>
+            </div>
+            <div style = "display: flex; justify-content: space-around; 
+                                         padding: 25px; flex-wrap: nowrap; cursor: pointer;">
+                <h2 class = "move" onclick= "document.getElementById('about').scrollIntoView({behavior: 'smooth'})">ОБ товаре</h2>
+                <h2 class = "move">Характеристики</h2>
+                <h2 class = "move">Отзиви</h2>
+                <h2 class = "move">Вопроси</h2>
+            </div>
+            <div style = "display: flex; padding: 4% 8%; justify-content: space-around">
+                <div style = "padding: 5% 7%; display: flex;">
+                    <div>
+                        <div style = "display: block; margin-bottom: 30px;">
+                            <img class="hover-image" src = "image/360512118.webp" height = "500px" width = "450px">
+                        </div>
+                    </div>
+                </div>
+                <div style = "padding: 19px">
+                    <h2><p>Компьютер ARTLINE Gaming X47 (X47v45)
+                    AMD Ryzen 5 5500 / 16ГБ DDR4 / HDD 1ТБ + SSD 480ГБ /
+                    nVidia GeForce RTX 3060 12 ГБ</p></h2>
+                    <div style = "padding: 26px; display: flex; align-items: center; font-family: COLONNA MT">
+                        <h3>Продавец:</h3> 
+                        <div style = "padding: 15px">
+                            <img class = "border" src = "image/clipboard_image_d2b6152983c9fd62.png" height = "70px" width = "70px">
+                        </div>
+                        <h2 style = "color: blue;">Pc</h2> <h2 style = "color: gray">Store</h2>
+                        <div style = " padding-left: 200px;" >
+                            <div style = "display: flex;">
+                                <img src = "image/star.png" height = "35px" width = "35px">
+                                <img src = "image/star.png" height = "35px" width = "35px">
+                                <img src = "image/star.png" height = "35px" width = "35px">
+                                <img src = "image/star.png" height = "35px" width = "35px">
+                                <img src = "image/star.png" height = "35px" width = "35px">
+                            </div>
+                            <div style = "text-align: end; color: black; margin-right: 15px;">
+                                <h4>рейтинг</h4> 
+                            </div>
+                        </div>
+                    </div>
+                    <div style = "padding: 20px; display: flex; margin-bottom: 20px;" >
+                        <div style = "margin-top: -5px;">
+                            <h4 style = "color: green">Есть в наличии</h4>
+                            <div style = "display: flex;" class = "cost">
+                                <h1 id="general_price" style = "color: red">30 000</h1>
+                                <h5 style = "color: red">₴</h5>
+                            </div>
+                        </div>
+                        <div id="buy" class = "general_button" style = "height: 60px; padding: 3% 11%;">
+                            купити
+                        </div>
+                        <div class = "general_button" style = "height: 60px; padding: 3% 11%;">
+                            кредит
+                        </div>
+                    </div>
+
+                    <div style = "display: flex; padding: 2% 5%; align-items: center; justify-content: space-between;">
+                        <div style = "display: flex; align-items: center; ">
+                            <img src = "image/нова-почта.webp" height = "50px" width = "50px" style = " border-radius: 30px;">
+                            <h3 style = "padding: 10px; color: black; font-family: Arial;">Нова-пошта  Самовивіз з відділення</h3>
+                        </div>
+                        <h3>120$</h3>
+                    </div>
+                    <div style = "display: flex; padding: 2% 5%; align-items: center; justify-content: space-between;">
+                        <div style = "display: flex; align-items: center; ">
+                            <img src = "image/укр-почта.png" height = "50px" width = "50px" style = " border-radius: 30px;">
+                            <h3 style = "padding: 10px; color: black; font-family: Arial;">Укр-пошта  Самовивіз з відділення</h3>
+                        </div>
+                        <h3>120$</h3>
+                    </div>
+                    <div style = "display: flex; padding: 2% 5%; align-items: center; justify-content: space-between;">
+                        <div style = "display: flex; align-items: center; ">
+                            <img src = "image/meest.png" height = "50px" width = "50px" style = " border-radius: 30px;">
+                            <h3 style = "padding: 10px; color: black; font-family: Arial;">Meest  Самовивіз з відділення</h3>
+                        </div>
+                        <h3>120$</h3>
+                    </div>
+                    <div style = "display: flex; padding: 10px; align-items: center;">
+                        <img src = "image/кредит.png" height = "55px" width = "55px" style = "padding: 10px;">
+                        <h4 style = "font-weight: 1000; padding: 10px;">Розрахунок</h4>
+                        <h5 style = "padding: 10px;  max-width: 70ch; word-wrap: break-word;">Оплата при отриманні товару, Оплата карткою Visa/MasterCard (RozetkaPay),
+                            Apple Pay, Google Pay, Оплата на рахунок продавця, 
+                            Покупка частинами monobank, Оплата частинами від ПриватБанк, 
+                            Передплата на картку продавця</h5>
+                    </div>
+                    <div style = "display: flex; padding: 10px; align-items: center;">
+                        <img src = "image/защита.png" height = "55px" width = "55px">
+                        <h4 style = "font-weight: 1000; padding: 10px;">Гарантія</h4>
+                        <h5 style = "padding: 10px;  max-width: 70ch; word-wrap: break-word;">12 місяців Обмін/повернення товару протягом 14 днів</h5>
+                    </div>
+                </div>
+            </div>
+            <div id = "about" style = "display: flex;">
+            </div>
+        </main>
+        <footer style="background: #292929; color: white; padding: 30px 0; margin-top: 200px">
+            <div style="margin-bottom: 10px; text-align: center;">
+              <strong>PcStore</strong> © 2025
+            </div>
+            <div style="text-align: center; margin: 20px">
+              <a href="#" style="color: #aaa; margin: 0 10px;">Головна</a>
+              <a href="#" style="color: #aaa; margin: 0 10px;">Про сайт</a>
+              <a href="#" style="color: #aaa; margin: 0 10px;">Контакти</a>
+            </div>
+            <div style="max-width: 1600px; margin: auto; display: flex; justify-content: start; justify-content: space-around;">
+              
+              <div>
+                <h3>Контакти</h3>
+                <p>Телефон: <a href="tel:+380123456789" style="color: #4CAF50;">+38 (068) 361-05-10</a></p>
+                <p>Email: <a href="mailto:info@example.com" style="color: #4CAF50;">nikitahaliullin10@gmail.com</a></p>
+                <p>Адреса: вул. Центральна, 10, Київ</p>
+                <p>Пн-Пт: 9:00 - 18:00</p>
+              </div>
+              
+              <div style="margin-left: 30px">
+                <h3>Ми в соцмережах</h3>
+                <a href="#" style="color: white; margin-right: 10px; font-size: 24px;">📘</a>
+                <a href="#" style="color: white; margin-right: 10px; font-size: 24px;">📸</a>
+                <a href="#" style="color: white; font-size: 24px;">✈️</a>
+              </div>
+
+              <div style="margin-left: 30px">
+                <h3>Розробники сайту</h3>
+                <h4 style="margin: 10px">Haliullin Nikita Radislavovich</h4>
+              </div>
+
+              <div>
+                <h3>Подяка користувачу</h3>
+                <h4>Дякуємо що внесли свій вклад в наш проект!</h4>
+                <h4>Ми цінуємо вас та ваш внесок в майбутє!</h4>
+                <h4>Ви допомагаєте нам розвиватись далі</h4>
+                <h4>Чекаємо вашого поверненя на наш сайт знову!</h4>
+                
+              </div>
+            </div>
+        </footer>
+        <script src="general.js"></script>
+    </body>
+</html>

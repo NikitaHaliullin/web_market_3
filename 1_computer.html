@@ -1,0 +1,243 @@
+<html>
+    <head>
+        <title>PcStore</title>
+        <link rel="stylesheet" href="global.css">
+        <link rel="stylesheet" href="flex.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body style = "background: black;">
+        <header>
+            <a href = "index.html" class = "logo"><img id="logotip" src="image/clipboard_image_d2b6152983c9fd62.png"></a>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">Головна</a></li>
+                    <li><a id="basket">Корзина</a></li>
+                    <li><a href="#">Комлектуючі &blacktriangledown;</a>
+                        <ul>
+                            <li><a href="1_vidercard.html">Відеокарти</a></li>
+                            <li><a href="#">Процесори</a></li>
+                            <li><a href="#">Материнскі плати</a></li>
+                            <li><a href="#">Корпуси</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="1_register.html">Войти</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <div id="massage-basket">Ваша корзина</div>
+                <div style="display: flex;">
+                    <div id="massage-computers" style="display: block;" >
+                        <div style="text-align: center; color: #4A90E2; margin-bottom: 60px;">
+                            фільтр
+                        </div>
+                        <div style="text-align: center; color: #4A90E2; font-size: 30px; margin-bottom: 10px;">
+                            ціна
+                        </div>
+                        <div style="display: flex; justify-content: center">
+                            <div style="margin-left: 20px;">
+                                <input style="width: 145px;" type="number" id="min" required>
+                                <h6>min</h6>
+                            </div>
+                            <div style="margin-left: 20px; margin-right: 20px;">
+                                <input style="width: 145px;" type="number" id="max" width="150px" required>
+                                <h6>max</h6>
+                            </div>
+                        </div>
+                        <div style="text-align: center; color: #4A90E2; font-size: 30px;">
+                            сортирувати
+                        </div>
+                        <div style="margin-top: 20px; display: flex; justify-content: center">
+                            <select id="high_low" style="width: 200px">
+                                <option value="high">Від дорожчих до дешевих</option>
+                                <option value="low">Від дешевих до дорожчих</option>
+                            </select>
+                        </div>
+                        <div style="text-align: center; color: #4A90E2; font-size: 30px; margin-top: 20px;">
+                            Колір
+                        </div>
+                        <div style="margin-top: 10px; display: flex; justify-content: center">
+                            <select id="PcColor" style="width: 200px">
+                                <option value="All">Всі</option>
+                                <option value="white">Білий</option>
+                                <option value="black">Чорний</option>
+                            </select>
+                        </div>
+                        <div id="choose" class="button" style="display: flex; width: 175px; margin-top: 360px; margin-left: 80px">
+                            Применить
+                        </div>
+                    </div> 
+                    <div style = "display: flex;">
+                        <div id="computers" class="computers">
+                            <a class = "card" href = "1_general.html">
+                                <div id="computer_1">
+                                    <img class="name_image" src = "image/pc_1.webp" width = "160px" height = "200px">
+                                    <p class = "title_text">Комп'ютер ARTLINE Gaming X39 (X39v82) Intel Core i5-12400F / RAM 32ГБ / SSD 1ТБ / nVidia GeForce RTX 4060 8ГБ</p>
+                                    <p class = "price_text">39999</p>
+                                    <p class="black">black</p>
+                                </div>
+                            </a>
+                            <a class = "card" href = "1_general.html">
+                                <div id="computer_2">
+                                    <img class="name_image" src = "image/pc_2.webp" width = "160px" height = "200px">
+                                    <p class = "title_text">Компьютер ARTLINE Gaming X55WHITE (X55WHITEv51)</p>
+                                    <p class = "price_text">47200</p>
+                                    <p class="black">white</p>
+                                </div>
+                            </a>
+                            <a class = "card" href = "1_general.html">
+                                <div id="computer_3">
+                                    <img class="name_image" src = "image/pc_3.webp" width = "160px" height = "200px">
+                                    <p class = "title_text">Компьютер ARTLINE Gaming DRGN (DRGNv150)</p>
+                                    <p class = "price_text">45549</p>
+                                    <p class="black">black</p>
+                                </div>
+                            </a>
+                            <a class = "card" href = "1_general.html">
+                                <div id="computer_4">
+                                    <img class="name_image" src = "image/pc_4.webp" width = "160px" height = "200px">
+                                    <p class = "title_text">Компьютер Artline Gaming TANKWHITE (TankWhitev07) white</p>
+                                    <p class = "price_text">81699</p>
+                                    <p class="black">white</p>
+                                </div>
+                            </a>
+                            <a class = "card" href = "1_general.html">
+                                <div id="computer_5">
+                                    <img class="name_image" src = "image/pc_5.webp" width = "160px" height = "200px">
+                                    <p class = "title_text">Комп'ютер ALMATECH QX510 / Core i5 4570 / GTX 1660 Super 6ГБ / HDD+SSD</p>
+                                    <p class = "price_text">16669</p>
+                                    <p class="black">black</p>
+                                </div>
+                            </a>
+                            <a class = "card" href = "1_general.html">
+                                <div id="computer_6">
+                                    <img class="name_image" src = "image/pc_6.webp" width = "160px" height = "200px">
+                                    <p class = "title_text">Комп'ютер Vinga Wolverine D6735 (I5M16G4060.D6735)</p>
+                                    <p class = "price_text">44199</p>
+                                    <p class="black">black</p>
+                                </div>
+                            </a>
+                            <a class = "card" href = "1_general.html">
+                                <div id="computer_7">
+                                    <img class="name_image" src = "image/pc_7.webp" width = "160px" height = "200px">
+                                    <p class = "title_text">Комп'ютер Vinga Wolverine A5308 (I3M32G3060W.A5308)</p>
+                                    <p class = "price_text">35650</p>
+                                    <p class="black">black</p>
+                                </div>
+                            </a>
+                            <a class = "card" href = "1_general.html">
+                                <div id="computer_8">
+                                    <img class="name_image" src = "image/pc_8.webp" width = "160px" height = "200px">
+                                    <p class = "title_text">Компʼютер ByteWave RX 5700 XT Ryzen 5 - 3600 DDR4 16GB</p>
+                                    <p class = "price_text">21999</p>
+                                    <p class="black">black</p>
+                                </div>
+                            </a>
+                            <a class = "card" href = "1_general.html">
+                                <div id="computer_9">
+                                    <img class="name_image" src = "image/pc_9.webp" width = "160px" height = "200px">
+                                    <p class = "title_text">ігровий ком'ютер EXPERTPC Storm - Ryzen 5 5600X / RX 6700 XT</p>
+                                    <p class = "price_text">39200</p>
+                                    <p class="black">black</p>
+                                </div>
+                            </a>
+                            <a class = "card" href = "1_general.html">
+                                <div id="computer_10">
+                                    <img class="name_image" src = "image/pc_10.webp" width = "160px" height = "200px">
+                                    <p class = "title_text">Компьютер ARTLINE Gaming X85WHITE (X85WHITEv38)</p>
+                                    <p class = "price_text">49799</p>
+                                    <p class="black">white</p>
+                                </div>
+                            </a>
+                            <a class = "card" href = "1_general.html">
+                                <div id="computer_11">
+                                    <img class="name_image" src = "image/pc_11.webp" width = "160px" height = "200px">
+                                    <p class = "title_text">Ігровий компютер Expert PC Ultimate</p>
+                                    <p class = "price_text">32350</p>
+                                    <p class="black">black</p>
+                                </div>
+                            </a>
+                            <a class = "card" href = "1_general.html">
+                                <div id="computer_12">
+                                    <img class="name_image" src = "image/pc_12.webp" width = "160px" height = "200px">
+                                    <p class = "title_text">Компьютер ARTLINE Gaming X57 (X57v68)</p>
+                                    <p class = "price_text">41280</p>
+                                    <p class="black">black</p>
+                                </div>
+                            </a>
+                            <a class = "card" href = "1_general.html">
+                                <div id="computer_13">
+                                    <img class="name_image" src = "image/pc_13.webp" width = "160px" height = "200px">
+                                    <p class = "title_text">Комп'ютер HEXO Gaming RTX3050 Base (HGB-5500N3050-16S500WH) White</p>
+                                    <p class = "price_text">23599</p>
+                                    <p class="black">white</p>
+                                </div>
+                            </a>
+                            <a class = "card" href = "1_general.html">
+                                <div id="computer_14">
+                                    <img class="name_image" src = "image/pc_14.webp" width = "160px" height = "200px">
+                                    <p class = "title_text">Компьютер ARTLINE Overlord ASMVv38</p>
+                                    <p class = "price_text">63000</p>
+                                    <p class="black">white</p>
+                                </div>
+                            </a>
+                            <a class = "card" href = "1_general.html">
+                                <div id="computer_15">
+                                    <img class="name_image" src = "image/pc_15.webp" width = "160px" height = "200px">
+                                    <p class = "title_text">Ігровий ПК X-Game 35.3 (Intel Core i5-11400F, RX 6700 XT 12 ГБ, 16 ГБ ОП, 500 SSD, Windows 11)</p>
+                                    <p class = "price_text">37999</p>
+                                    <p class="black">white</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+
+        </main>
+        <footer style="background: #292929; color: white; padding: 30px 0; margin-top: 250px">
+            <div style="margin-bottom: 10px; text-align: center;">
+              <strong>PcStore</strong> © 2025
+            </div>
+            <div style="text-align: center; margin: 20px">
+              <a href="#" style="color: #aaa; margin: 0 10px;">Головна</a>
+              <a href="#" style="color: #aaa; margin: 0 10px;">Про сайт</a>
+              <a href="#" style="color: #aaa; margin: 0 10px;">Контакти</a>
+            </div>
+            <div style="max-width: 1600px; margin: auto; display: flex; justify-content: start; justify-content: space-around;">
+              
+              <div>
+                <h3>Контакти</h3>
+                <p>Телефон: <a href="tel:+380123456789" style="color: #4CAF50;">+38 (068) 361-05-10</a></p>
+                <p>Email: <a href="mailto:info@example.com" style="color: #4CAF50;">nikitahaliullin10@gmail.com</a></p>
+                <p>Адреса: вул. Центральна, 10, Київ</p>
+                <p>Пн-Пт: 9:00 - 18:00</p>
+              </div>
+              
+              <div style="margin-left: 30px">
+                <h3>Ми в соцмережах</h3>
+                <a href="#" style="color: white; margin-right: 10px; font-size: 24px;">📘</a>
+                <a href="#" style="color: white; margin-right: 10px; font-size: 24px;">📸</a>
+                <a href="#" style="color: white; font-size: 24px;">✈️</a>
+              </div>
+
+              <div style="margin-left: 30px">
+                <h3>Розробники сайту</h3>
+                <h4 style="margin: 10px">Haliullin Nikita Radislavovich</h4>
+              </div>
+
+              <div>
+                <h3>Подяка користувачу</h3>
+                <h4>Дякуємо що внесли свій вклад в наш проект!</h4>
+                <h4>Ми цінуємо вас та ваш внесок в майбутє!</h4>
+                <h4>Ви допомагаєте нам розвиватись далі</h4>
+                <h4>Чекаємо вашого поверненя на наш сайт знову!</h4>
+                
+              </div>
+            </div>
+        </footer>
+        <script src="core.js"></script>
+    </body> 
+</html>

@@ -1,0 +1,286 @@
+<html>
+    <head>
+        <title>PcStore</title>
+        <link rel="stylesheet" href="global.css">
+        <link rel="stylesheet" href="flex.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body style = "background: black;">
+        <header>
+            <a href = "index.html" class = "logo"><img id="logotip" src="image/clipboard_image_d2b6152983c9fd62.png"></a>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">Головна</a></li>
+                    <li><a id="basket">Корзина</a></li>
+                    <li><a href="#">Комлектуючі &blacktriangledown;</a>
+                        <ul>
+                            <li><a href="1_vidercard.html">Відеокарти</a></li>
+                            <li><a href="#">Процесори</a></li>
+                            <li><a href="1_mother_board.html">Материнскі плати</a></li>
+                            <li><a href="#">Корпуси</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="1_register.html">Войти</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <div id="massage-basket">
+                <div style="display: flex; flex-direction: column; align-items: start; justify-content: start;">
+                    <div style="padding: 20px;">
+                        <label style="color: #4A90E2; ">Ваша корзина</label>
+                    </div>
+                    <div id="buy_computers">
+                        
+                    </div>
+                </div>
+            </div>
+                <div style="display: flex;">
+                    <div id="massage-computers" style="display: block;" >
+                        <div style="text-align: center; color: #4A90E2; margin-bottom: 60px;">
+                            фільтр
+                        </div>
+                        <div style="text-align: center; color: #4A90E2; font-size: 30px; margin-bottom: 10px;">
+                            ціна
+                        </div>
+                        <div style="display: flex; justify-content: center">
+                            <div style="margin-left: 20px;">
+                                <input style="width: 145px;" type="number" id="min" required>
+                                <h6>min</h6>
+                            </div>
+                            <div style="margin-left: 20px; margin-right: 20px;">
+                                <input style="width: 145px;" type="number" id="max" width="150px" required>
+                                <h6>max</h6>
+                            </div>
+                        </div>
+                        <div style="text-align: center; color: #4A90E2; font-size: 30px;">
+                            сортирувати
+                        </div>
+                        <div style="margin-top: 20px; display: flex; justify-content: center">
+                            <select id="high_low" style="width: 200px">
+                                <option value="high">Від дорожчих до дешевих</option>
+                                <option value="low">Від дешевих до дорожчих</option>
+                            </select>
+                        </div>
+                        <div style="text-align: center; color: #4A90E2; font-size: 30px; margin-top: 20px;">
+                            Компанія
+                        </div>
+                        <div style="margin-top: 10px; display: flex; justify-content: center">
+                            <select id="PcColor" style="width: 200px">
+                                <option value="All">Всі</option>
+                                <option value="intel">intel</option>
+                                <option value="AMD">AMD</option>
+                            </select>
+                        </div>
+                        <div id="choose" class="button" style="display: flex; width: 175px; margin-top: 360px; margin-left: 80px">
+                            Применить
+                        </div>
+                    </div> 
+                    <div style = "display: flex;">
+                        <div id="computers" class="computers">
+                            <a style="width: 280px" class = "card" href = "1_general.html">
+                                <div id="computer_1">
+                                    <img class="name_image" src = "procesors\proc_1.png" width = "260px" height = "200px">
+                                    <p class = "title_text">Intel Core i3 10100f</p>
+                                    <p class = "price_text">2799</p>
+                                    <div style="display: flex; flex-direction: row; justify-content: space-between;">
+                                        <h4 style="color: #00f">грн</h4>
+                                        <p class="black">intel</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a style="width: 280px" class = "card" href = "1_general.html">
+                                <div id="computer_1">
+                                    <img class="name_image" src = "procesors\proc_2.png" width = "260px" height = "200px">
+                                    <p class = "title_text">Intel Core i3 12100f</p>
+                                    <p class = "price_text">3299</p>
+                                    <div style="display: flex; flex-direction: row; justify-content: space-between;">
+                                        <h4 style="color: #00f">грн</h4>
+                                        <p class="black">intel</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a style="width: 280px" class = "card" href = "1_general.html">
+                                <div id="computer_1">
+                                    <img class="name_image" src = "procesors\proc_3.png" width = "260px" height = "200px">
+                                    <p class = "title_text">Intel Core i3 13100f</p>
+                                    <p class = "price_text">3499</p>
+                                    <div style="display: flex; flex-direction: row; justify-content: space-between;">
+                                        <h4 style="color: #00f">грн</h4>
+                                        <p class="black">intel</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a style="width: 280px" class = "card" href = "1_general.html">
+                                <div id="computer_1">
+                                    <img class="name_image" src = "procesors\proc_4.png" width = "260px" height = "200px">
+                                    <p class = "title_text">Intel Core i5 10400f</p>
+                                    <p class = "price_text">4399</p>
+                                    <div style="display: flex; flex-direction: row; justify-content: space-between;">
+                                        <h4 style="color: #00f">грн</h4>
+                                        <p class="black">intel</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a style="width: 280px" class = "card" href = "1_general.html">
+                                <div id="computer_1">
+                                    <img class="name_image" src = "procesors\proc_5.png" width = "246px" height = "200px">
+                                    <p class = "title_text">Intel Core i5 12400f</p>
+                                    <p class = "price_text">4879</p>
+                                    <div style="display: flex; flex-direction: row; justify-content: space-between;">
+                                        <h4 style="color: #00f">грн</h4>
+                                        <p class="black">intel</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a style="width: 280px" class = "card" href = "1_general.html">
+                                <div id="computer_1">
+                                    <img class="name_image" src = "procesors\proc_6.png" width = "260px" height = "200px">
+                                    <p class = "title_text">Intel Core i5 14400f</p>
+                                    <p class = "price_text">5599</p>
+                                    <div style="display: flex; flex-direction: row; justify-content: space-between;">
+                                        <h4 style="color: #00f">грн</h4>
+                                        <p class="black">intel</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a style="width: 280px" class = "card" href = "1_general.html">
+                                <div id="computer_1">
+                                    <img class="name_image" src = "procesors\proc_7.png" width = "260px" height = "200px">
+                                    <p class = "title_text">Intel Core i7 12700f</p>
+                                    <p class = "price_text">10599</p>
+                                    <div style="display: flex; flex-direction: row; justify-content: space-between;">
+                                        <h4 style="color: #00f">грн</h4>
+                                        <p class="black">intel</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a style="width: 280px" class = "card" href = "1_general.html">
+                                <div id="computer_1">
+                                    <img class="name_image" src = "procesors\proc_8.png" width = "260px" height = "200px">
+                                    <p class = "title_text">Intel Core i7 10700f</p>
+                                    <p class = "price_text">9199</p>
+                                    <div style="display: flex; flex-direction: row; justify-content: space-between;">
+                                        <h4 style="color: #00f">грн</h4>
+                                        <p class="black">intel</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a style="width: 280px" class = "card" href = "1_general.html">
+                                <div id="computer_1">
+                                    <img class="name_image" src = "procesors\proc_10.png" width = "260px" height = "200px">
+                                    <p class = "title_text">Intel Core i9 9900k</p>
+                                    <p class = "price_text">8599</p>
+                                    <div style="display: flex; flex-direction: row; justify-content: space-between;">
+                                        <h4 style="color: #00f">грн</h4>
+                                        <p class="black">intel</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a style="width: 280px" class = "card" href = "1_general.html">
+                                <div id="computer_1">
+                                    <img class="name_image" src = "procesors\proc_11.png" width = "260px" height = "200px">
+                                    <p class = "title_text">Intel Core i9 10900f</p>
+                                    <p class = "price_text">10999</p>
+                                    <div style="display: flex; flex-direction: row; justify-content: space-between;">
+                                        <h4 style="color: #00f">грн</h4>
+                                        <p class="black">intel</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a style="width: 280px" class = "card" href = "1_general.html">
+                                <div id="computer_1">
+                                    <img class="name_image" src = "procesors\proc_12.png" width = "260px" height = "200px">
+                                    <p class = "title_text">Amd Rizen 5 5500</p>
+                                    <p class = "price_text">2999</p>
+                                    <div style="display: flex; flex-direction: row; justify-content: space-between;">
+                                        <h4 style="color: #00f">грн</h4>
+                                        <p class="black">AMD</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a style="width: 280px" class = "card" href = "1_general.html">
+                                <div id="computer_1">
+                                    <img class="name_image" src = "procesors\proc_13.png" width = "260px" height = "200px">
+                                    <p class = "title_text">Amd Rizen 5 3600</p>
+                                    <p class = "price_text">2499</p>
+                                    <div style="display: flex; flex-direction: row; justify-content: space-between;">
+                                        <h4 style="color: #00f">грн</h4>
+                                        <p class="black">AMD</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a style="width: 280px" class = "card" href = "1_general.html">
+                                <div id="computer_1">
+                                    <img class="name_image" src = "procesors\proc_14.png" width = "260px" height = "200px">
+                                    <p class = "title_text">Amd Rizen 7 5700X</p>
+                                    <p class = "price_text">6799</p>
+                                    <div style="display: flex; flex-direction: row; justify-content: space-between;">
+                                        <h4 style="color: #00f">грн</h4>
+                                        <p class="black">AMD</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a style="width: 280px" class = "card" href = "1_general.html">
+                                <div id="computer_1">
+                                    <img class="name_image" src = "procesors\proc_15.png" width = "260px" height = "200px">
+                                    <p class = "title_text">Amd Rizen 5 5600</p>
+                                    <p class = "price_text">3099</p>
+                                    <div style="display: flex; flex-direction: row; justify-content: space-between;">
+                                        <h4 style="color: #00f">грн</h4>
+                                        <p class="black">AMD</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+
+        </main>
+        <footer style="background: #292929; color: white; padding: 30px 0; margin-top: 200px">
+            <div style="margin-bottom: 10px; text-align: center;">
+              <strong>PcStore</strong> © 2025
+            </div>
+            <div style="text-align: center; margin: 20px">
+              <a href="#" style="color: #aaa; margin: 0 10px;">Головна</a>
+              <a href="#" style="color: #aaa; margin: 0 10px;">Про сайт</a>
+              <a href="#" style="color: #aaa; margin: 0 10px;">Контакти</a>
+            </div>
+            <div style="max-width: 1600px; margin: auto; display: flex; justify-content: start; justify-content: space-around;">
+              
+              <div>
+                <h3>Контакти</h3>
+                <p>Телефон: <a href="tel:+380123456789" style="color: #4CAF50;">+38 (068) 361-05-10</a></p>
+                <p>Email: <a href="mailto:info@example.com" style="color: #4CAF50;">nikitahaliullin10@gmail.com</a></p>
+                <p>Адреса: вул. Центральна, 10, Київ</p>
+                <p>Пн-Пт: 9:00 - 18:00</p>
+              </div>
+              
+              <div style="margin-left: 30px">
+                <h3>Ми в соцмережах</h3>
+                <a href="#" style="color: white; margin-right: 10px; font-size: 24px;">📘</a>
+                <a href="#" style="color: white; margin-right: 10px; font-size: 24px;">📸</a>
+                <a href="#" style="color: white; font-size: 24px;">✈️</a>
+              </div>
+
+              <div style="margin-left: 30px">
+                <h3>Розробники сайту</h3>
+                <h4 style="margin: 10px">Haliullin Nikita Radislavovich</h4>
+              </div>
+
+              <div>
+                <h3>Подяка користувачу</h3>
+                <h4>Дякуємо що внесли свій вклад в наш проект!</h4>
+                <h4>Ми цінуємо вас та ваш внесок в майбутє!</h4>
+                <h4>Ви допомагаєте нам розвиватись далі</h4>
+                <h4>Чекаємо вашого поверненя на наш сайт знову!</h4>
+                
+              </div>
+            </div>
+        </footer>
+        <script src="core.js"></script>
+    </body> 
+</html>
